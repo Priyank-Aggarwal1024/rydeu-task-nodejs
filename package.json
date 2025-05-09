@@ -1,0 +1,30 @@
+{
+  "name": "rydeu-task-nodejs",
+  "version": "1.0.0",
+  "description": "Rydeu.com Nodejs Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyank-Aggarwal1024/rydeu-task-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyank-Aggarwal1024/rydeu-task-nodejs/issues"
+  },
+  "homepage": "https://github.com/Priyank-Aggarwal1024/rydeu-task-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
